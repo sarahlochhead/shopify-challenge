@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* General and shared styles */
+html {
+   background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 12%, #C850C0 49%, #FFCC70 89%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.5%;
+}
+
+h1,
+h3,
+p,
+button {
+    margin: 0;
+}
+
+h3, 
+p {
+    margin-top: 1rem;
+}
+
+h1, 
+#date,
+button {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+/*Header styles */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+/* Section styles */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #4158D0;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: #c850c075;
+}
+
+/* Photo styles */
+#photo {
+    width: 100%;
+    border-radius: 2%;
+}
+
+
+/* Caption styles */
+#title {
+    line-height: 20px ;
+}
+
+/* Date styles */
+#date {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+/* Caption styles */
+#caption {
+    line-height: 1.5rem;
+}
+
+
+/* Button styles */
+button {
+    width: 25%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 78% 20% 50% 25% / 43% 63% 23% 39% ;
+    background-color: #fcf0da;
+    
+}
+
+/* Fotter styles */
+footer {
+    margin: 1;
+    color: white;
+    text-align: center;
+}
